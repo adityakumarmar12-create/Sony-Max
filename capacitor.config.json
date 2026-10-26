@@ -1,0 +1,3 @@
+{"appId":"com.example.livetv","appName":"Live TV","webDir":"dist",
+"server":{"androidScheme":"http","cleartext":true},
+"android":{"allowMixedContent":true}}
