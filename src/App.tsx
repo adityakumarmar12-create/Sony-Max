@@ -115,7 +115,7 @@ export default function App() {
       : stage.current?.focus())
   }, [open])
 
-  const onStageKey = (e: React.KeyboardEvent) => {
+  const onStageKey = (e: import("react").KeyboardEvent) => {
     if (open) return
     const k = e.key
     if (k === 'Enter' || k === ' ' || k === 'ArrowRight') { e.preventDefault(); setOpen(true) }
